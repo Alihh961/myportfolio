@@ -71,7 +71,7 @@ header.change {
 
 .name {
   display: flex;
-  flex: 1;
+min-width: 336px;
   align-items: center;
 }
 
@@ -87,7 +87,7 @@ header h6 {
 
 h3.head-title {
   padding:0 5px;
-  color: rgb(255, 61, 61);
+  color: red;
   text-align: center;
   margin: 56px auto 0 auto;
   font-size: 18px;
@@ -357,7 +357,7 @@ h3.head-title {
 }
 
 .height {
-  height: 220px !important;
+  height: 300px !important;
 }
 
 .projects .div-pros > div div {
